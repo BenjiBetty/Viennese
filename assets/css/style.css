@@ -72,7 +72,7 @@ header {
   .container .row2-col1 {
     grid-column: 1;
     grid-row: 1;
-    border: solid 1px black;
+    border-right: solid 1px black;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 165px auto; }
@@ -348,7 +348,8 @@ a:link {
 .row1-col3-col2:hover {
   background-color: black; }
   .row1-col3-col2:hover polygon {
-    stroke: white; }
+    stroke: white;
+    fill: white; }
   .row1-col3-col2:hover line {
     stroke: white; }
   .row1-col3-col2:hover p {
@@ -356,3 +357,5 @@ a:link {
 
 .row1-col3-col3:hover {
   background-color: black; }
+  .row1-col3-col3:hover line {
+    stroke: white; }

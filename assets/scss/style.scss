@@ -94,7 +94,7 @@ header {
     .row2-col1 {
         grid-column: 1;
         grid-row: 1;
-        border: solid 1px black;
+        border-right: solid 1px black;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 165px auto;
@@ -423,6 +423,7 @@ a:link {
     background-color: black;
     polygon {
         stroke: white;
+        fill: white;
     }
     line {
         stroke: white;
@@ -434,4 +435,7 @@ a:link {
 
 .row1-col3-col3:hover {
     background-color: black;
+    line {
+        stroke: white;
+    }
 }
