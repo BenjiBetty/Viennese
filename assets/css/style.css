@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow-x: hidden; }
 
 header {
   display: grid;
@@ -292,6 +293,28 @@ footer {
     border-top: solid 1px black;
     border-right: solid 1px black; }
 
+.large-text {
+  font-size: 2.2em; }
+
+.medium-text {
+  font-size: 0.95em; }
+
+.small-text {
+  font-size: 0.8em;
+  width: 100%;
+  line-height: 20px; }
+
+.center-block {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.forme {
+  position: relative;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%); }
+
 p {
   margin: 0 auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -345,22 +368,60 @@ a:link {
     padding: 14px; }
   .row2-col3 .cadre2 {
     border: 1px solid black;
-    height: 100%; }
+    height: 100%;
+    text-align: center;
+    position: relative; }
+    .row2-col3 .cadre2 .medium-text {
+      margin-top: 10px; }
+    .row2-col3 .cadre2 .small-text {
+      position: absolute;
+      bottom: 20px; }
 
-.text {
-  height: 100%;
-  margin: 20px; }
-  .text p {
-    font-size: 2em; }
-  .text .schiele {
-    height: 20px;
+.row2-col1-row2 {
+  position: relative; }
+  .row2-col1-row2 .titre {
+    position: relative;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    top: 20px; }
+  .row2-col1-row2 .schiele {
+    position: absolute;
     display: flex;
-    bottom: 0;
-    margin-top: 130px; }
-    .text .schiele p {
-      font-size: 0.6em; }
-    .text .schiele img {
-      width: 10px; }
+    width: 90%;
+    height: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); }
+    .row2-col1-row2 .schiele img {
+      width: 12px;
+      height: 12px;
+      margin-top: 4px; }
+
+.row3-col1-row1-col1 {
+  position: relative; }
+  .row3-col1-row1-col1 .back {
+    background-image: url("../../assets/img/gloryHoleBack.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center; }
+  .row3-col1-row1-col1 .front {
+    position: absolute;
+    background-image: url("../../assets/img/gloryHoleFront.png");
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center center; }
+
+.row3-col1-row2 {
+  background-image: url("../../assets/img/wagner.jpg");
+  background-size: cover; }
+
+.row3-col3-col2 {
+  background-image: url("../../assets/img/schiele.jpg");
+  background-size: cover; }
 
 .logo {
   width: 100%;

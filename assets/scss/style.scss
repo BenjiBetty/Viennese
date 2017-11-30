@@ -11,6 +11,7 @@
 
 body {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 //GRID
@@ -357,6 +358,34 @@ footer {
 }
 
 //END OF GRID
+//GRID CONTENT
+.large-text {
+    font-size: 2.2em;
+}
+
+.medium-text {
+    font-size: 0.95em;
+}
+
+.small-text {
+    font-size: 0.8em;
+    width: 100%;
+    line-height: 20px;
+}
+
+.center-block {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.forme {
+    position: relative;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 p {
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -421,29 +450,74 @@ a:link {
     .cadre2 {
         border: 1px solid black;
         height: 100%;
+        text-align: center;
+        position: relative;
+        .medium-text {
+            margin-top: 10px;
+        }
+        .small-text {
+            position: absolute;
+            bottom: 20px;
+        }
     }
 }
 
-.text {
-    height: 100%;
-    margin: 20px;
-    p {
-        font-size: 2em;
+.row2-col1-row2 {
+    position: relative;
+    .titre {
+        position: relative;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        top: 20px;
     }
     .schiele {
-        height: 20px;
+        position: absolute;
         display: flex;
-        bottom: 0;
-        margin-top: 130px;
-        p {
-            font-size: 0.6em;
-        }
+        width: 90%;
+        height: 20px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
         img {
-            width: 10px;
+            width: 12px;
+            height: 12px;
+            margin-top: 4px;
         }
     }
 }
 
+.row3-col1-row1-col1 {
+    position: relative;
+    .back {
+        background-image: url('../../assets/img/gloryHoleBack.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .front {
+        position: absolute;
+        background-image: url('../../assets/img/gloryHoleFront.png');
+        width: 100%;
+        top: 0;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+.row3-col1-row2 {
+    background-image: url('../../assets/img/wagner.jpg');
+    background-size: cover;
+}
+
+.row3-col3-col2 {
+    background-image: url('../../assets/img/schiele.jpg');
+    background-size: cover;
+}
+
+//END GRID CONTENT
 //SVG
 .logo {
     @include svgCenter();
@@ -535,3 +609,5 @@ a:link {
         stroke: white;
     }
 }
+
+//ANIMATIONS
