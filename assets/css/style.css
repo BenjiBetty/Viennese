@@ -458,29 +458,12 @@ a:link {
   background-size: cover;
   background-position: center center; }
 
-.row7-col1 {
+.text-block {
   display: flex;
-  align-content: center;
-  justify-content: center; }
-  .row7-col1 .text-block {
-    display: flex;
-    width: auto;
-    height: auto; }
-    .row7-col1 .text-block p {
-      width: auto;
-      line-height: 90px; }
-
-.row7-col2 {
-  text-align: center; }
-  .row7-col2 p {
-    width: auto;
-    line-height: 90px; }
-
-.row7-col3 {
-  text-align: center; }
-  .row7-col3 p {
-    width: auto;
-    line-height: 90px; }
+  width: auto;
+  height: 20px; }
+  .text-block p {
+    width: auto; }
 
 .logo {
   width: 100%;

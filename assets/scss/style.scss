@@ -563,34 +563,12 @@ a:link {
     background-position: center center;
 }
 
-.row7-col1 {
+.text-block {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    .text-block {
-        display: flex;
-        width: auto;
-        height: auto;
-        p {
-            width: auto;
-            line-height: 90px;
-        }
-    }
-}
-
-.row7-col2 {
-    text-align: center;
+    width: auto;
+    height: 20px;
     p {
         width: auto;
-        line-height: 90px;
-    }
-}
-
-.row7-col3 {
-    text-align: center;
-    p {
-        width: auto;
-        line-height: 90px;
     }
 }
 
