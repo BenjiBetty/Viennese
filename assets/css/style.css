@@ -473,6 +473,40 @@ a:link {
   height: 14px;
   margin: 0 15px; }
 
+.block-hover {
+  height: 100%; }
+  .block-hover .plan {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    visibility: hidden; }
+  .block-hover #fourth-plan {
+    border: none; }
+  .block-hover .foreground {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
+    visibility: visible; }
+  .block-hover p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    line-height: 30px;
+    text-transform: none;
+    white-space: nowrap; }
+
+.row4-col2-row2-col1 p,
+.row3-col3-col2 p {
+  transform: translate(-50%, -50%) rotate(-90deg) translate(0, -3px); }
+
 .row3-col1-row1-col1 {
   position: relative; }
   .row3-col1-row1-col1 .back {
