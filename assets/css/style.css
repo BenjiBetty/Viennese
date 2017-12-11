@@ -440,6 +440,39 @@ a:link {
   border: 1px solid black;
   background-color: white; }
 
+.line1-circles,
+.line2-circles,
+.line3-circles,
+.line4-circles,
+.line5-circles {
+  display: flex;
+  margin: 20px auto;
+  width: auto; }
+
+.line1-circles {
+  margin-top: 0; }
+
+.line5-circles {
+  margin-bottom: 0; }
+
+.block-full-circles {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px; }
+
+.circle {
+  width: 14px;
+  height: 14px;
+  margin: 0 15px;
+  border: 1px solid black;
+  border-radius: 50%; }
+
+.circle-arrow {
+  width: 14px;
+  height: 14px;
+  margin: 0 15px; }
+
 .row3-col1-row1-col1 {
   position: relative; }
   .row3-col1-row1-col1 .back {
@@ -604,3 +637,6 @@ body {
 
 #third-square:hover {
   background-color: #3c3b3b; }
+
+.circle:hover {
+  background-color: silver; }
