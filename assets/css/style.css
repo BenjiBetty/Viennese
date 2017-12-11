@@ -431,6 +431,15 @@ a:link {
     border-radius: 50%;
     margin: 0 30px; }
 
+.row5-col1-row1-col2 {
+  padding: 25px; }
+
+.square {
+  width: auto;
+  padding: 27px;
+  border: 1px solid black;
+  background-color: white; }
+
 .row3-col1-row1-col1 {
   position: relative; }
   .row3-col1-row1-col1 .back {
@@ -583,3 +592,15 @@ body {
   background-color: black; }
   .row1-col3-col3:hover line {
     stroke: white; }
+
+.row5-col1-row1-col2:hover {
+  background-color: #dad8d8; }
+
+#first-square:hover {
+  background-color: #aca9a9; }
+
+#second-square:hover {
+  background-color: #6a6969; }
+
+#third-square:hover {
+  background-color: #3c3b3b; }
