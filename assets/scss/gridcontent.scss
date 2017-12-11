@@ -115,6 +115,9 @@ a:link {
 .row6-col3,
 {
     position: relative;
+    .small-text {
+        margin-left: 20px;
+    }
 }
 
 .titre {
@@ -128,15 +131,17 @@ a:link {
 .schiele {
     position: absolute;
     display: flex;
-    width: 90%;
-    height: 20px;
+    width: 100%;
+    height: auto;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     img {
+        position: absolute;
         width: 12px;
         height: 12px;
-        margin-top: 4px;
+        right: 20px;
+        bottom: 4px;
     }
 }
 

@@ -382,6 +382,18 @@ a:link {
 .row6-col2,
 .row6-col3 {
   position: relative; }
+  .row2-col1-row2 .small-text,
+  .row3-col1-row1-col2 .small-text,
+  .row3-col3-col1 .small-text,
+  .row4-col1-row2 .small-text,
+  .row4-col2-row1 .small-text,
+  .row4-col2-row2-col2 .small-text,
+  .row5-col1-row1-col1 .small-text,
+  .row5-col3-row1 .small-text,
+  .row6-col1 .small-text,
+  .row6-col2 .small-text,
+  .row6-col3 .small-text {
+    margin-left: 20px; }
 
 .titre {
   position: relative;
@@ -393,15 +405,17 @@ a:link {
 .schiele {
   position: absolute;
   display: flex;
-  width: 90%;
-  height: 20px;
+  width: 100%;
+  height: auto;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%); }
   .schiele img {
+    position: absolute;
     width: 12px;
     height: 12px;
-    margin-top: 4px; }
+    right: 20px;
+    bottom: 4px; }
 
 .row3-col1-row1-col1 {
   position: relative; }
