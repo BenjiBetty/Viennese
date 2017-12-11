@@ -145,6 +145,22 @@ a:link {
     }
 }
 
+.block-circles {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .circle {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 0 30px;
+    }
+}
+
 //////////IMAGES∕∕∕∕∕∕∕∕∕∕
 .row3-col1-row1-col1 {
     position: relative;
